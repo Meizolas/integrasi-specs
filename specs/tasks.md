@@ -1,163 +1,163 @@
-# DEV + IA Interactive Experience - Tarefas
+﻿# DEV + IA Interactive Experience - Tarefas
 
-## Fase 0 - Segurança e análise
+## Fase 0 - SeguranÃ§a e anÃ¡lise
 
-- [ ] Criar cópia de segurança do `presentation.html`.
-- [ ] Ler integralmente `presentation.html` e os arquivos de `specs/`.
-- [ ] Mapear funções, seletores, atalhos e estilos existentes.
-- [ ] Confirmar a quantidade de 19 slides.
-- [ ] Registrar títulos e categorias dos slides.
-- [ ] Definir uma estratégia de implementação que preserve o arquivo original.
+- [x] Criar cÃ³pia de seguranÃ§a do `presentation.html`.
+- [x] Ler integralmente `presentation.html` e os arquivos de `specs/`.
+- [x] Mapear funÃ§Ãµes, seletores, atalhos e estilos existentes.
+- [x] Confirmar a quantidade de 19 slides.
+- [x] Registrar tÃ­tulos e categorias dos slides.
+- [x] Definir uma estratÃ©gia de implementaÃ§Ã£o que preserve o arquivo original.
 
-## Fase 1 - Fundação
+## Fase 1 - FundaÃ§Ã£o
 
-- [ ] Criar controlador de estados da aplicação.
-- [ ] Centralizar abertura e fechamento de camadas.
-- [ ] Criar funções seguras para leitura e escrita no `localStorage`.
-- [ ] Criar gerenciador central de cronômetros.
-- [ ] Evitar duplicação de event listeners.
-- [ ] Implementar tratamento de `visibilitychange`.
+- [x] Criar controlador de estados da aplicaÃ§Ã£o.
+- [x] Centralizar abertura e fechamento de camadas.
+- [x] Criar funÃ§Ãµes seguras para leitura e escrita no `localStorage`.
+- [x] Criar gerenciador central de cronÃ´metros.
+- [x] Evitar duplicaÃ§Ã£o de event listeners.
+- [x] Implementar tratamento de `visibilitychange`.
 
 ## Fase 2 - Tela inicial
 
-- [ ] Criar estrutura HTML da tela inicial.
-- [ ] Criar estilos responsivos.
-- [ ] Implementar animação de entrada.
-- [ ] Implementar `Iniciar apresentação`.
-- [ ] Implementar `Continuar` condicionado ao progresso.
-- [ ] Implementar `Explorar slides`.
-- [ ] Garantir navegação por teclado.
+- [x] Criar estrutura HTML da tela inicial.
+- [x] Criar estilos responsivos.
+- [x] Implementar animaÃ§Ã£o de entrada.
+- [x] Implementar `Iniciar apresentaÃ§Ã£o`.
+- [x] Implementar `Continuar` condicionado ao progresso.
+- [x] Implementar `Explorar slides`.
+- [x] Garantir navegaÃ§Ã£o por teclado.
 
 ## Fase 3 - Universo de Slides
 
-- [ ] Gerar cards automaticamente a partir dos slides existentes.
-- [ ] Associar número, título, categoria e ícone.
-- [ ] Implementar layout espacial para desktop.
-- [ ] Implementar grade responsiva para tablet e celular.
-- [ ] Implementar flutuação com variações controladas.
-- [ ] Implementar parallax limitado com `requestAnimationFrame`.
-- [ ] Implementar estados atual e visualizado.
-- [ ] Implementar abertura animada de um slide.
-- [ ] Implementar atalho `M`.
-- [ ] Implementar retorno ao Universo.
-- [ ] Desativar efeitos contínuos em movimento reduzido.
+- [x] Gerar cards automaticamente a partir dos slides existentes.
+- [x] Associar nÃºmero, tÃ­tulo, categoria e Ã­cone.
+- [x] Implementar layout espacial para desktop.
+- [x] Implementar grade responsiva para tablet e celular.
+- [x] Implementar flutuaÃ§Ã£o com variaÃ§Ãµes controladas.
+- [x] Implementar parallax limitado com `requestAnimationFrame`.
+- [x] Implementar estados atual e visualizado.
+- [x] Implementar abertura animada de um slide.
+- [x] Implementar atalho `M`.
+- [x] Implementar retorno ao Universo.
+- [x] Desativar efeitos contÃ­nuos em movimento reduzido.
 
-## Fase 4 - Transições da apresentação
+## Fase 4 - TransiÃ§Ãµes da apresentaÃ§Ã£o
 
-- [ ] Preservar `updateSlide`, `nextSlide`, `prevSlide` e `goToSlide` ou equivalentes.
-- [ ] Adicionar trava durante transições.
-- [ ] Implementar direção de avanço e retorno.
-- [ ] Reiniciar animações internas do slide ativo.
-- [ ] Atualizar progresso e persistência depois da troca.
-- [ ] Testar botões, teclado e toque.
+- [x] Preservar `updateSlide`, `nextSlide`, `prevSlide` e `goToSlide` ou equivalentes.
+- [x] Adicionar trava durante transiÃ§Ãµes.
+- [x] Implementar direÃ§Ã£o de avanÃ§o e retorno.
+- [x] Reiniciar animaÃ§Ãµes internas do slide ativo.
+- [x] Atualizar progresso e persistÃªncia depois da troca.
+- [x] Testar botÃµes, teclado e toque.
 
 ## Fase 5 - Estrutura do quiz
 
-- [ ] Criar dados das três perguntas conforme `quiz.md`.
-- [ ] Criar camada e cabeçalho do quiz.
-- [ ] Criar componente de pergunta.
-- [ ] Criar alternativas acessíveis.
-- [ ] Implementar resposta única.
-- [ ] Implementar feedback correto/incorreto.
-- [ ] Implementar explicação.
-- [ ] Implementar avanço manual.
-- [ ] Implementar reinício completo.
+- [x] Criar dados das trÃªs perguntas conforme `quiz.md`.
+- [x] Criar camada e cabeÃ§alho do quiz.
+- [x] Criar componente de pergunta.
+- [x] Criar alternativas acessÃ­veis.
+- [x] Implementar resposta Ãºnica.
+- [x] Implementar feedback correto/incorreto.
+- [x] Implementar explicaÃ§Ã£o.
+- [x] Implementar avanÃ§o manual.
+- [x] Implementar reinÃ­cio completo.
 
-## Fase 6 - Cronômetro e pontuação
+## Fase 6 - CronÃ´metro e pontuaÃ§Ã£o
 
-- [ ] Implementar cronômetro de 60 segundos.
-- [ ] Implementar indicador visual de progresso.
-- [ ] Implementar mudanças verde, laranja e vermelho.
-- [ ] Implementar pulso nos últimos cinco segundos.
-- [ ] Implementar resolução por tempo esgotado.
-- [ ] Garantir exclusão mútua entre resposta e timeout.
-- [ ] Implementar fórmula de pontuação.
-- [ ] Exibir pontos conquistados e acumulados.
-- [ ] Calcular tempo médio.
-- [ ] Criar tela final e mensagens por desempenho.
+- [x] Implementar cronÃ´metro de 60 segundos.
+- [x] Implementar indicador visual de progresso.
+- [x] Implementar mudanÃ§as verde, laranja e vermelho.
+- [x] Implementar pulso nos Ãºltimos cinco segundos.
+- [x] Implementar resoluÃ§Ã£o por tempo esgotado.
+- [x] Garantir exclusÃ£o mÃºtua entre resposta e timeout.
+- [x] Implementar fÃ³rmula de pontuaÃ§Ã£o.
+- [x] Exibir pontos conquistados e acumulados.
+- [x] Calcular tempo mÃ©dio.
+- [x] Criar tela final e mensagens por desempenho.
 
 ## Fase 7 - Sons
 
-- [ ] Criar gerenciador de Web Audio API.
-- [ ] Desbloquear áudio somente após interação.
-- [ ] Implementar som de navegação.
-- [ ] Implementar som de abertura do quiz.
-- [ ] Implementar som de acerto.
-- [ ] Implementar som de erro.
-- [ ] Implementar contagem dos últimos cinco segundos.
-- [ ] Implementar som de tempo esgotado.
-- [ ] Implementar som de resultado.
-- [ ] Implementar controle e atalho `S`.
-- [ ] Persistir preferência.
-- [ ] Prevenir sobreposição indevida.
+- [x] Criar gerenciador de Web Audio API.
+- [x] Desbloquear Ã¡udio somente apÃ³s interaÃ§Ã£o.
+- [x] Implementar som de navegaÃ§Ã£o.
+- [x] Implementar som de abertura do quiz.
+- [x] Implementar som de acerto.
+- [x] Implementar som de erro.
+- [x] Implementar contagem dos Ãºltimos cinco segundos.
+- [x] Implementar som de tempo esgotado.
+- [x] Implementar som de resultado.
+- [x] Implementar controle e atalho `S`.
+- [x] Persistir preferÃªncia.
+- [x] Prevenir sobreposiÃ§Ã£o indevida.
 
 ## Fase 8 - Modo apresentador
 
-- [ ] Criar painel recolhível.
-- [ ] Exibir slide atual e próximo slide.
-- [ ] Implementar cronômetro geral.
-- [ ] Implementar cronômetro do slide atual.
-- [ ] Criar área de notas por slide.
-- [ ] Persistir notas.
-- [ ] Adicionar controles de Universo, quiz, som e tempo.
-- [ ] Implementar atalho `N`.
+- [x] Criar painel recolhÃ­vel.
+- [x] Exibir slide atual e prÃ³ximo slide.
+- [x] Implementar cronÃ´metro geral.
+- [x] Implementar cronÃ´metro do slide atual.
+- [x] Criar Ã¡rea de notas por slide.
+- [x] Persistir notas.
+- [x] Adicionar controles de Universo, quiz, som e tempo.
+- [x] Implementar atalho `N`.
 
-## Fase 9 - Ajuda e preferências
+## Fase 9 - Ajuda e preferÃªncias
 
-- [ ] Criar modal de atalhos.
-- [ ] Implementar atalho `?`.
-- [ ] Criar controle manual de movimento reduzido.
-- [ ] Criar ação para limpar progresso e preferências.
-- [ ] Exibir toasts acessíveis para mudanças de configuração.
+- [x] Criar modal de atalhos.
+- [x] Implementar atalho `?`.
+- [x] Criar controle manual de movimento reduzido.
+- [x] Criar aÃ§Ã£o para limpar progresso e preferÃªncias.
+- [x] Exibir toasts acessÃ­veis para mudanÃ§as de configuraÃ§Ã£o.
 
 ## Fase 10 - Acessibilidade
 
-- [ ] Revisar semântica e rótulos ARIA.
-- [ ] Implementar gerenciamento de foco.
-- [ ] Implementar focus trap nos modais.
-- [ ] Criar regiões `aria-live` para feedback importante.
-- [ ] Garantir indicadores além de cor.
-- [ ] Verificar contraste.
-- [ ] Verificar áreas de toque.
-- [ ] Testar com teclado.
-- [ ] Testar com movimento reduzido.
-- [ ] Testar zoom em 200%.
+- [x] Revisar semÃ¢ntica e rÃ³tulos ARIA.
+- [x] Implementar gerenciamento de foco.
+- [x] Implementar focus trap nos modais.
+- [x] Criar regiÃµes `aria-live` para feedback importante.
+- [x] Garantir indicadores alÃ©m de cor.
+- [x] Verificar contraste.
+- [x] Verificar Ã¡reas de toque.
+- [x] Testar com teclado.
+- [x] Testar com movimento reduzido.
+- [x] Testar zoom em 200%.
 
 ## Fase 11 - Desempenho e robustez
 
-- [ ] Limitar partículas e remover elementos após animações.
-- [ ] Cancelar `requestAnimationFrame` quando não necessário.
-- [ ] Cancelar cronômetros ao mudar de estado.
-- [ ] Garantir apenas um timer de pergunta.
-- [ ] Testar falha de `localStorage`.
-- [ ] Testar áudio indisponível.
-- [ ] Testar funcionamento offline.
+- [x] Limitar partÃ­culas e remover elementos apÃ³s animaÃ§Ãµes.
+- [x] Cancelar `requestAnimationFrame` quando nÃ£o necessÃ¡rio.
+- [x] Cancelar cronÃ´metros ao mudar de estado.
+- [x] Garantir apenas um timer de pergunta.
+- [x] Testar falha de `localStorage`.
+- [x] Testar Ã¡udio indisponÃ­vel.
+- [x] Testar funcionamento offline.
 
 ## Fase 12 - Testes de aceite
 
-- [ ] Confirmar que os 19 slides continuam intactos.
-- [ ] Testar todos os atalhos.
-- [ ] Testar navegação por botões, teclado e toque.
-- [ ] Testar acesso a cada slide pelo Universo.
-- [ ] Testar pergunta correta.
-- [ ] Testar pergunta incorreta.
-- [ ] Testar tempo esgotado.
-- [ ] Testar resposta no último segundo.
-- [ ] Testar reinício do quiz.
-- [ ] Testar fechamento e reabertura do quiz.
-- [ ] Testar sons ligados e desligados.
-- [ ] Testar pausa ao trocar de aba.
-- [ ] Testar persistência após recarregar.
-- [ ] Testar desktop, tablet e celular.
-- [ ] Validar que nenhuma falha opcional impede a apresentação básica.
+- [x] Confirmar que os 19 slides continuam intactos.
+- [x] Testar todos os atalhos.
+- [x] Testar navegaÃ§Ã£o por botÃµes, teclado e toque.
+- [x] Testar acesso a cada slide pelo Universo.
+- [x] Testar pergunta correta.
+- [x] Testar pergunta incorreta.
+- [x] Testar tempo esgotado.
+- [x] Testar resposta no Ãºltimo segundo.
+- [x] Testar reinÃ­cio do quiz.
+- [x] Testar fechamento e reabertura do quiz.
+- [x] Testar sons ligados e desligados.
+- [x] Testar pausa ao trocar de aba.
+- [x] Testar persistÃªncia apÃ³s recarregar.
+- [x] Testar desktop, tablet e celular.
+- [x] Validar que nenhuma falha opcional impede a apresentaÃ§Ã£o bÃ¡sica.
 
-## Ordem recomendada para demonstração ao vivo
+## Ordem recomendada para demonstraÃ§Ã£o ao vivo
 
-1. Mostrar a apresentação original funcionando.
+1. Mostrar a apresentaÃ§Ã£o original funcionando.
 2. Ler `requirements.md` e explicar o comportamento esperado.
-3. Mostrar as decisões de `design.md` e `interactions.md`.
+3. Mostrar as decisÃµes de `design.md` e `interactions.md`.
 4. Pedir ao agente para implementar somente a tela inicial e o Universo de Slides.
 5. Testar o acesso a um slide.
-6. Mostrar a versão completa previamente preparada com quiz, sons e modo apresentador.
-7. Comparar a implementação com os critérios de aceite.
+6. Mostrar a versÃ£o completa previamente preparada com quiz, sons e modo apresentador.
+7. Comparar a implementaÃ§Ã£o com os critÃ©rios de aceite.
 
